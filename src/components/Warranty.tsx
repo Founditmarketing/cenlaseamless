@@ -11,8 +11,8 @@ export default function Warranty() {
                     initial={{ scale: 1.05 }}
                     whileInView={{ scale: 1 }}
                     transition={{ duration: 10, ease: "linear" }}
-                    src="/antigravity_warranty_1772764372299.png"
-                    alt="Magical suspended raindrops around perfect copper gutters"
+                    src="/antigravity_warranty_v2_1772765263911.png"
+                    alt="Surreal floating 7-inch gutter with swirling antigravity raindrops"
                     className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/80 to-stone-900/40" />
