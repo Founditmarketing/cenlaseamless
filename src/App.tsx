@@ -11,6 +11,7 @@ import BeforeAfterSlider from './components/BeforeAfterSlider';
 import Gallery from './components/Gallery';
 import Materials from './components/Materials';
 import Testimonials from './components/Testimonials';
+import Warranty from './components/Warranty';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -26,6 +27,7 @@ export default function App() {
         <Gallery />
         <Materials />
         <Testimonials />
+        <Warranty />
         <Contact />
       </main>
       <Footer />
