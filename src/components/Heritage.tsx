@@ -25,7 +25,7 @@ export default function Heritage() {
                 <strong className="text-stone-900">Since 1986</strong>, Cenla Seamless Gutters has been more than just a business—it's a family legacy. Founded by Joe Gutierrez, we've built our reputation one handshake and one perfect install at a time.
               </p>
               <p>
-                With 40 years of experience under Joe's belt and his son Joseph bringing 25 years of expertise to the team, we offer a level of generational knowledge that big corporate franchises simply can't match.
+                With 40 years of dedicated experience under Joe's belt, working alongside his son Joseph, we offer a level of generational craftsmanship that big corporate franchises simply can't match.
               </p>
               <p>
                 We live here, we work here, and we treat every home in Alexandria and the surrounding areas as if it were our own. When you call us, you're not getting a call center; you're getting a family that cares about your home's protection.
@@ -39,8 +39,8 @@ export default function Heritage() {
               </div>
               <div className="h-12 w-px bg-stone-200"></div>
               <div className="text-center">
-                <span className="block text-4xl font-serif font-bold text-orange-600">65+</span>
-                <span className="text-sm text-stone-500 uppercase tracking-wide font-medium">Years Combined Exp.</span>
+                <span className="block text-4xl font-serif font-bold text-orange-600">40</span>
+                <span className="text-sm text-stone-500 uppercase tracking-wide font-medium">Years Experience</span>
               </div>
             </div>
           </motion.div>
