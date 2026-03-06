@@ -11,30 +11,39 @@ export default function Contact() {
               We value personal service over automated chats. Call our office to speak directly with our team about your gutter needs.
             </p>
           </div>
-          
+
           <div className="p-8 md:p-12">
             <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-              
+
               <div className="text-center md:text-left space-y-8">
                 <div className="flex flex-col items-center md:items-start">
                   <div className="w-12 h-12 bg-orange-50 rounded-full flex items-center justify-center mb-4 text-orange-600">
                     <Phone className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-bold text-stone-900 mb-2">Call Us Directly</h3>
-                  <a href="tel:318-555-0123" className="text-3xl md:text-4xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
-                    (318) 555-0123
+                  <a href="tel:318-442-8224" className="text-3xl md:text-4xl font-bold text-orange-600 hover:text-orange-700 transition-colors">
+                    (318) 442-8224
                   </a>
-                  <p className="text-stone-500 mt-2">Mon-Fri: 7am - 6pm</p>
+                  <p className="text-stone-500 mt-2">Mon-Fri: 7am - 5pm</p>
                 </div>
 
                 <div className="flex flex-col items-center md:items-start">
                   <div className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center mb-4 text-slate-600">
                     <MapPin className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-bold text-stone-900 mb-2">Service Area</h3>
-                  <p className="text-stone-600 text-lg">
-                    Proudly serving Alexandria, Pineville, and all of Central Louisiana.
-                  </p>
+                  <h3 className="text-xl font-bold text-stone-900 mb-2">Our Locations</h3>
+                  <div className="text-stone-600 text-lg space-y-3">
+                    <p>
+                      <strong className="block text-stone-800 text-base">Alexandria Office</strong>
+                      5001 Sarah Street<br />
+                      Alexandria, LA 71303
+                    </p>
+                    <p>
+                      <strong className="block text-stone-800 text-base">Pineville Office</strong>
+                      6001 Pentecostal Way<br />
+                      Pineville, LA 71360
+                    </p>
+                  </div>
                 </div>
               </div>
 

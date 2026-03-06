@@ -13,16 +13,16 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-emerald-400" />
-              Alexandria, Louisiana
+              Alexandria & Pineville, LA
             </span>
             <span className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-emerald-400" />
               Serving Central LA Since 1986
             </span>
           </div>
-          <a href="tel:318-555-0123" className="flex items-center gap-2 hover:text-white transition-colors font-medium">
+          <a href="tel:318-442-8224" className="flex items-center gap-2 hover:text-white transition-colors font-medium">
             <Phone className="w-4 h-4" />
-            Call for a Free Estimate: (318) 555-0123
+            Call for a Free Estimate: (318) 442-8224
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="tel:318-555-0123"
+              href="tel:318-442-8224"
               className="bg-orange-600 text-white px-6 py-2.5 rounded-md font-medium hover:bg-orange-700 transition-colors shadow-sm flex items-center gap-2"
             >
               <Phone className="w-4 h-4" />
@@ -92,10 +92,10 @@ export default function Header() {
                 </a>
               ))}
               <a
-                href="tel:318-555-0123"
+                href="tel:318-442-8224"
                 className="block w-full text-center mt-4 bg-orange-600 text-white px-6 py-3 rounded-md font-medium hover:bg-orange-700 transition-colors"
               >
-                Call (318) 555-0123
+                Call (318) 442-8224
               </a>
             </div>
           </motion.div>

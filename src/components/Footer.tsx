@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-stone-950 text-stone-300 py-12 border-t border-stone-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          
+
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -34,16 +34,15 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>Alexandria, Louisiana</li>
-              <li><a href="tel:318-555-0123" className="hover:text-white transition-colors">(318) 555-0123</a></li>
+              <li>Alexandria & Pineville, LA</li>
+              <li><a href="tel:318-442-8224" className="hover:text-white transition-colors">(318) 442-8224</a></li>
               <li className="pt-4 flex gap-4">
-                <a href="#" className="text-stone-500 hover:text-white transition-colors"><Facebook className="w-5 h-5" /></a>
-                <a href="#" className="text-stone-500 hover:text-white transition-colors"><Instagram className="w-5 h-5" /></a>
+                <a href="https://www.facebook.com/CenlaSeamlessGutters/" target="_blank" rel="noopener noreferrer" className="text-stone-500 hover:text-white transition-colors"><Facebook className="w-5 h-5" /></a>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-stone-900 pt-8 text-center text-xs text-stone-500">
           <p>&copy; {new Date().getFullYear()} Cenla Seamless Gutters. All rights reserved.</p>
         </div>
