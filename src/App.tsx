@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Heritage from './components/Heritage';
+import BeforeAfterSlider from './components/BeforeAfterSlider';
 import Gallery from './components/Gallery';
 import Materials from './components/Materials';
 import Testimonials from './components/Testimonials';
@@ -21,6 +22,7 @@ export default function App() {
         <Hero />
         <Services />
         <Heritage />
+        <BeforeAfterSlider />
         <Gallery />
         <Materials />
         <Testimonials />
