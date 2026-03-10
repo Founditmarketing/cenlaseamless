@@ -55,39 +55,32 @@ export default function BeforeAfterSlider() {
                         handlePointerMove(e);
                     }}
                 >
-                    {/* After Image (Background) */}
-                    <div className="absolute inset-0 z-0">
+                    {/* After Image (Full Background) */}
+                    <div className="absolute inset-0">
                         <img
-                            src="/after_gutters_1772761946374.png"
+                            src="/after_comparison.jpg"
                             alt="Brand new seamless gutters installation"
                             className="w-full h-full object-cover"
                             draggable={false}
                         />
-                        <div className="absolute top-4 right-4 bg-stone-900/80 backdrop-blur-md px-4 py-1.5 rounded-full z-10 border border-white/10">
-                            <span className="text-emerald-400 font-bold tracking-widest uppercase text-xs">After</span>
-                        </div>
                     </div>
 
-                    {/* Before Image (Foreground, Clipped) */}
+                    {/* Before Image (Clipped Overlay) */}
                     <div
-                        className="absolute inset-y-0 left-0 z-10 transition-all duration-75 ease-out"
-                        style={{ width: `${sliderPosition}%` }}
+                        className="absolute inset-0 z-10"
+                        style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
                     >
                         <img
-                            src="/before_gutters_1772761960113.png"
+                            src="/before_comparison.jpg"
                             alt="Old, rusting and leaking gutters"
-                            className="w-full h-full object-cover object-left"
-                            style={{ width: '100vw', maxWidth: containerRef.current?.offsetWidth || '100vw' }}
+                            className="w-full h-full object-cover"
                             draggable={false}
                         />
-                        <div className="absolute top-4 left-4 bg-stone-900/80 backdrop-blur-md px-4 py-1.5 rounded-full z-10 border border-white/10">
-                            <span className="text-orange-400 font-bold tracking-widest uppercase text-xs">Before</span>
-                        </div>
                     </div>
 
                     {/* Slider Handle */}
                     <div
-                        className="absolute top-0 bottom-0 w-1 bg-white z-20 transition-all duration-75 ease-out shadow-[0_0_15px_rgba(0,0,0,0.5)]"
+                        className="absolute top-0 bottom-0 w-1 bg-white z-20 shadow-[0_0_15px_rgba(0,0,0,0.5)]"
                         style={{ left: `${sliderPosition}%`, transform: 'translateX(-50%)' }}
                     >
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-xl border-4 border-stone-100 hover:scale-110 transition-transform">

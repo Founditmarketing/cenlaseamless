@@ -55,8 +55,8 @@ export default function Heritage() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-8 border-stone-100 group">
               <img
-                src="/heritage_team_1772761255629.png"
-                alt="Contractor working on a home"
+                src="/heritage_new.jpg"
+                alt="Detailed view of seamless gutters on a brick house"
                 className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 to-transparent"></div>

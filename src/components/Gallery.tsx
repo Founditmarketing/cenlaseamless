@@ -2,34 +2,34 @@ import { motion } from 'motion/react';
 
 const images = [
   {
-    url: "/gallery_seamless_1772761271385.png",
-    title: "Seamless Installation",
-    category: "Aluminum"
+    url: "/gallery_new_0.jpg",
+    title: "New Home Installation",
+    category: "Full System"
   },
   {
-    url: "/gallery_copper_1772761285245.png",
-    title: "Copper Detail",
-    category: "Premium"
+    url: "/gallery_new_1.jpg",
+    title: "Outdoor Living Protection",
+    category: "Patio Cover"
   },
   {
-    url: "/gallery_commercial_1772761299097.png",
-    title: "Commercial Project",
-    category: "7-Inch Box"
+    url: "/gallery_new_2.jpg",
+    title: "Precision Cornering",
+    category: "Detail"
   },
   {
-    url: "/gallery_guards_1772761315088.png",
-    title: "Residential Protection",
-    category: "Gutter Guards"
+    url: "/gallery_new_3.jpg",
+    title: "Copper Elegance",
+    category: "Specialty"
   },
   {
-    url: "/gallery_miters_1772761329378.png",
-    title: "Custom Miters",
-    category: "Craftsmanship"
+    url: "/gallery_new_4.jpg",
+    title: "Clean Lines",
+    category: "Classic"
   },
   {
-    url: "/gallery_black_1772761341871.png",
-    title: "Modern Finish",
-    category: "Black Enamel"
+    url: "/gallery_new_5.jpg",
+    title: "Patio Integration",
+    category: "Modern"
   }
 ];
 
