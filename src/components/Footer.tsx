@@ -37,7 +37,7 @@ export default function Footer() {
               <li>Alexandria & Pineville, LA</li>
               <li><a href="tel:318-442-8224" className="hover:text-white transition-colors">(318) 442-8224</a></li>
               <li className="pt-4 flex gap-4">
-                <a href="https://www.facebook.com/CenlaSeamlessGutters/" target="_blank" rel="noopener noreferrer" className="text-stone-500 hover:text-white transition-colors"><Facebook className="w-5 h-5" /></a>
+                <a href="https://www.facebook.com/cenlagutter" target="_blank" rel="noopener noreferrer" className="text-stone-500 hover:text-white transition-colors"><Facebook className="w-5 h-5" /></a>
               </li>
             </ul>
           </div>
