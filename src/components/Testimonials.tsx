@@ -4,35 +4,19 @@ import { Star, CheckCircle2, Navigation, MessageCircle } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Sarah Jenkins",
-    location: "Alexandria, LA",
-    text: "Joe and his son did an amazing job on our copper gutters. They were professional, on time, and the quality is outstanding. Our house looks completely different now!",
+    name: "John G.",
+    location: "HomeAdvisor Verified Review",
+    text: "Joe and his crew took their time and did great work installing new gutters on my home and reinforced gutters another company installed 20 years ago. Quality work, professional, and reasonable cost. I highly recommend them.",
     rating: 5,
-    timeAgo: "2 days ago",
+    timeAgo: "Feb 2025",
     verified: true
   },
   {
-    name: "Michael Thompson",
-    location: "Pineville, LA",
-    text: "I've used Cenla Seamless for two different properties. They are the only ones I trust for gutter work in Central Louisiana. Honest pricing and great work.",
+    name: "Laurie S.",
+    location: "HomeAdvisor Verified Review",
+    text: "They were a little pricey, but the work was done as promised, and the owner even checked to see if there was a leak beside the gutter. They had to replace fascia board as a previous owner had rotted it. I would hire them again.",
     rating: 5,
-    timeAgo: "1 week ago",
-    verified: true
-  },
-  {
-    name: "David Miller",
-    location: "Lecompte, LA",
-    text: "Fast service and the color match was perfect. The seamless gutters they installed have handled the heavy Louisiana rains without a single issue.",
-    rating: 5,
-    timeAgo: "2 weeks ago",
-    verified: true
-  },
-  {
-    name: "Jessica Barnes",
-    location: "Woodworth, LA",
-    text: "They custom-fabricated 7-inch gutters for our large runoff roof on-site. Incredible speed and the price was exactly what they quoted. Highly recommend.",
-    rating: 5,
-    timeAgo: "1 month ago",
+    timeAgo: "Apr 2020",
     verified: true
   }
 ];
@@ -40,7 +24,7 @@ const testimonials = [
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-rotate reviews to feel "live"
+  // Auto-rotate reviews
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % testimonials.length);
@@ -57,8 +41,8 @@ export default function Testimonials() {
           {/* Left: Trust Signals */}
           <div className="lg:w-1/3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-900/50 border border-emerald-500/30 text-emerald-400 text-sm font-medium mb-6">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              Live Reviews
+              <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+              Verified Reviews
             </div>
 
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Real Results. <br /><span className="text-orange-400 italic">Real Neighbors.</span></h2>
@@ -67,17 +51,28 @@ export default function Testimonials() {
               Don't just take our word for it. See what homeowners across Central Louisiana are saying about our family's craftsmanship.
             </p>
 
-            <div className="flex items-center gap-4 bg-white/5 backdrop-blur-sm p-4 rounded-xl border border-white/10">
+            <div className="flex items-center gap-4 bg-white/5 backdrop-blur-sm p-4 rounded-xl border border-white/10 mb-4">
               <div className="flex-shrink-0">
                 <div className="flex text-orange-400 text-xl">
                   ★★★★★
                 </div>
-                <div className="text-2xl font-bold text-white mt-1">4.9/5</div>
+                <div className="text-2xl font-bold text-white mt-1">5.0/5</div>
               </div>
               <div className="w-px h-12 bg-white/20 mx-2"></div>
               <div>
-                <p className="font-semibold">Google Reviews</p>
-                <p className="text-sm text-stone-400">Based on 145+ Ratings</p>
+                <p className="font-semibold">HomeAdvisor</p>
+                <p className="text-sm text-stone-400">3 Verified Reviews</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 bg-white/5 backdrop-blur-sm p-4 rounded-xl border border-white/10">
+              <div className="flex-shrink-0">
+                <div className="text-2xl font-bold text-white">A+</div>
+              </div>
+              <div className="w-px h-12 bg-white/20 mx-2"></div>
+              <div>
+                <p className="font-semibold">BBB Accredited</p>
+                <p className="text-sm text-stone-400">Since 2018</p>
               </div>
             </div>
           </div>
